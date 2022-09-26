@@ -6,9 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>function</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
+    <header>
+        <h1 class="text-5xl text-center mt-5">functional <span class="text-red-500 font-medium">bap er bank</span></h1>
+
+    </header>
+    <main>
+        <section class="mt-5">
+            <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto text-white ">
+                <div class="bg-yellow-400 p-8 rounded-lg">
+                    <h4 class="text-2xl">deposit</h4>
+                    <h2 class="text-4xl">$<span id="deposit-total">00</span></h2>
+
+                </div>
+                <div class="bg-blue-400 p-8 rounded-lg">
+                    <h4 class="text-2xl">withdarw</h4>
+                    <h2 class="text-4xl">$<span id="withdraw-total">00</span></h2>
+                </div>
+                <div class="bg-green-400 p-8 rounded-lg">
+                    <h4 class="text-2xl">balance</h4>
+                    <h2 class="text-4xl">$<span id="balance-total">1240</span></h2>
+                </div>
+
+            </div>
+        </section>
+        <section class="mt-5 ">
+            <div class="grid grid-cols-2 gap-4 w-3/4 mx-auto ">
+                <div class="bg-violet-400 p-8 rounded-lg text-white">
+                    <h4 class="text-3xl mb-5"> your deposit</h4>
+                    <input class="block" type="text" placeholder="$ amount you want to deposit">
+                    <button class="bg-green-400 rounded-lg mt-4 px-6 py-2 hover:bg-sky-400"
+                        id="btn-deposit">deposit</button>
+                </div>
+                <div class="bg-orange-400 p-8 rounded-lg text-white">
+                    <h4 class="text-3xl mb-5 b"> your withdraw</h4>
+                    <input class="block" type="text" placeholder="$ amount you want to withdraw">
+                    <button class="bg-amber-400 rounded-lg mt-4 px-6 py-2 hover:bg-sky-400"
+                        id="btn-withdraw">withdraw</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
 
 </body>
 
