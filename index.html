@@ -35,15 +35,15 @@
         </section>
         <section class="mt-5 ">
             <div class="grid grid-cols-2 gap-4 w-3/4 mx-auto ">
-                <div class="bg-violet-400 p-8 rounded-lg text-white">
-                    <h4 class="text-3xl mb-5"> your deposit</h4>
-                    <input class="block" type="text" placeholder="$ amount you want to deposit">
+                <div class="bg-violet-400 p-8 rounded-lg ">
+                    <h4 class="text-3xl mb-5 text-white"> your deposit</h4>
+                    <input id="deposit-field" class="block" type="text" placeholder="$ amount you want to deposit">
                     <button class="bg-green-400 rounded-lg mt-4 px-6 py-2 hover:bg-sky-400"
                         id="btn-deposit">deposit</button>
                 </div>
-                <div class="bg-orange-400 p-8 rounded-lg text-white">
-                    <h4 class="text-3xl mb-5 b"> your withdraw</h4>
-                    <input class="block" type="text" placeholder="$ amount you want to withdraw">
+                <div class="bg-orange-400 p-8 rounded-lg ">
+                    <h4 class="text-3xl mb-5 text-white"> your withdraw</h4>
+                    <input id="withdraw-field" class="block" type="text" placeholder="$ amount you want to withdraw">
                     <button class="bg-amber-400 rounded-lg mt-4 px-6 py-2 hover:bg-sky-400"
                         id="btn-withdraw">withdraw</button>
                 </div>
@@ -51,6 +51,8 @@
             </div>
         </section>
     </main>
+    <script src="js/deposit.js"></script>
+    <script src="js/withdraw.js"></script>
 
 </body>
 
